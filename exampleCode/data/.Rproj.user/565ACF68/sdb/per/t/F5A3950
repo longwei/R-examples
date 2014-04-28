@@ -1,0 +1,15 @@
+{
+    "contents" : "##---------------------------------------------------------------------------------##\n##   Script for R / Data Mining Boot Camp          \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##      David Weisman                              \t\t\t\t   ##\n##      Weisman@Computer.Org                       \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##      Boston, 2012                               \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##   This file is provided \"as is\" without warranty of any kind, either\t\t   ##\n##   expressed or implied, including limitation warranties of merchantability,\t   ##\n##   fitness for a particular purpose, and noninfringement.\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##   In no event shall the authors or copyright holders be liable for any claim,   ##\n##   damages or other liability, whether in an action of contract, tort or\t   ##\n##   otherwise, arising from, out of or in connection with the software or the\t   ##\n##   use or other dealings in the software.\t\t\t\t\t   ##\n##---------------------------------------------------------------------------------##\n\n\nm <- read.csv('mammals.csv')\n\nprint (m$bodyWt[1:3]) #- Extract bodyWt elements 1-3\n\nm$bodyWt[2] = -38     #- Set bodyWt element 2\nm$brainWt = 55        #- Set all brainWt elements\nprint (m)\n\n\n",
+    "created" : 1344092734786.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "186256951",
+    "id" : "F5A3950",
+    "lastKnownWriteTime" : 1343937180,
+    "path" : "~/workspace/test/exampleCode/data/dataFrameColVecManip.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

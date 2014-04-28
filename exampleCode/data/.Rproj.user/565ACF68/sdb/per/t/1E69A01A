@@ -1,0 +1,15 @@
+{
+    "contents" : "##---------------------------------------------------------------------------------##\n##   Script for R / Data Mining Boot Camp          \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##      David Weisman                              \t\t\t\t   ##\n##      Weisman@Computer.Org                       \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##      Boston, 2012                               \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##   This file is provided \"as is\" without warranty of any kind, either\t\t   ##\n##   expressed or implied, including limitation warranties of merchantability,\t   ##\n##   fitness for a particular purpose, and noninfringement.\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##   In no event shall the authors or copyright holders be liable for any claim,   ##\n##   damages or other liability, whether in an action of contract, tort or\t   ##\n##   otherwise, arising from, out of or in connection with the software or the\t   ##\n##   use or other dealings in the software.\t\t\t\t\t   ##\n##---------------------------------------------------------------------------------##\n\n\nhours.slept=c(8,7,9,10,9,4,8,6,11,12,10,7,9,12) # 2 wks\n\n#- length() gives the number of items in a vector\nn = length(hours.slept)\n#- print (paste (a,b))  shows multiple items\nprint (paste('number of observations:', n))\n\navg <- mean(hours.slept); \nprint (paste ('average hours slept', avg))\n\nbad.night = min(hours.slept);\ngood.night = max(hours.slept)\nprint (paste('extremes are', bad.night, good.night))\n",
+    "created" : 1344091641588.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "979962612",
+    "id" : "1E69A01A",
+    "lastKnownWriteTime" : 1344096878,
+    "path" : "~/workspace/test/exampleCode/data/twoWeekSleepData.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,15 @@
+{
+    "contents" : "##---------------------------------------------------------------------------------##\n##   Script for R / Data Mining Boot Camp          \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##      David Weisman                              \t\t\t\t   ##\n##      Weisman@Computer.Org                       \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##      Boston, 2012                               \t\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##   This file is provided \"as is\" without warranty of any kind, either\t\t   ##\n##   expressed or implied, including limitation warranties of merchantability,\t   ##\n##   fitness for a particular purpose, and noninfringement.\t\t\t   ##\n##                                                 \t\t\t\t   ##\n##   In no event shall the authors or copyright holders be liable for any claim,   ##\n##   damages or other liability, whether in an action of contract, tort or\t   ##\n##   otherwise, arising from, out of or in connection with the software or the\t   ##\n##   use or other dealings in the software.\t\t\t\t\t   ##\n##---------------------------------------------------------------------------------##\n\n\nm <- read.csv('mammals.csv') #- m gets data frame\n\n#- To access a column: dataFrame $ columnName\ncat (m $ brainWt, '\\n') # cat is primitive\ncat (\"biggest brain is\", max(m$brainWt), '\\n')\ncat (\"average body is\", mean (m$bodyWt), '\\n')\n",
+    "created" : 1344092687324.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "987844142",
+    "id" : "5A87669C",
+    "lastKnownWriteTime" : 1343937180,
+    "path" : "~/workspace/test/exampleCode/data/dataFrameColIsVector.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
